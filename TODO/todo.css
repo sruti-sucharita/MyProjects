@@ -45,3 +45,7 @@ body {
     padding: 15px 0px;
     cursor: pointer;
   }
+.btn-todo, .btn-delete {
+    width: 120px; /* Adjust as needed */
+    height:38px;
+}

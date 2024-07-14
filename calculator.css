@@ -1,0 +1,49 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-display: brown;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-cute-hand-drawn-style-mathematics-education-green-stripes-background-image_337566.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+
+  
+}
+#calculator {
+  border-style: solid;
+  border-width: 5px 10px 3px 8px; /* top, right, bottom, left */
+  border-color:rgb(212, 157, 138);
+  border-radius: 15px;
+  width: 250px;
+  margin-left: 150px;
+  margin-top: 140px;
+
+}
+
+  
+  #display {
+    margin: 20px;
+    width: 85%;
+    font-size: 30px;
+    background-color: antiquewhite;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+  }
+  
+  .button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: rgb(240, 221, 198);
+  }
+  .buttonequals {
+    width: 200px;
+    height: 45px;
+    margin: 3px;
+    background-color: rgb(240, 221, 198);
+  }

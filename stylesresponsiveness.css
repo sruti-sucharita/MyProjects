@@ -1,0 +1,49 @@
+/* Contact Us Form Styles */
+
+/* Reset default margin and font */
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('https://img.freepik.com/premium-photo/contact-us-hand-man-holding-mobile-smartphone-with-phone-email-chat-icon-cutomer-support-concept-gray-wide-banner_256259-2770.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Form input styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group datalist {
+    width: 60%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 97%;
+    bottom: 0;
+    margin-left: 0;
+}
